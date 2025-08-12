@@ -4,7 +4,7 @@ import pytesseract
 import openai
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Path to tesseract.exe example path: r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-openai.api_key = "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"
+openai.api_key = "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"
 
 def click_button(button):
     # Percentage-based coordinates for each button
